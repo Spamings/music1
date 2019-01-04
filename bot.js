@@ -114,7 +114,7 @@ client.on('message', async msg => {
 
 		if (!permissions.has('SPEAK')) {
 
-			return msg.channel.send("انا لا يمكنني التكلم في هاذه الروم");
+			return msg.channel.send("انا لا يمكنني التكلم في هذا الروم");
 		}
 
 		if (!permissions.has('EMBED_LINKS')) {
