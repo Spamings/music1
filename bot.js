@@ -315,7 +315,7 @@ function play(guild, song) {
 
 
 client.on('message', message => {
-    if (message.content === '1help') {
+    if (message.content === '122222help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (!)**')
@@ -334,7 +334,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '1general_commands') {
+    if (message.content === '1genera2l_commands') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر عامة...**')
         .addField('avatar', "افاتار الشخص المطلوب")
